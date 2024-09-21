@@ -1,0 +1,52 @@
+[
+  {
+    "id": "10",
+    "label": "Home",
+    "icon": "i-heroicons-book-open",
+    "to": "/",
+    "children": [],
+    "show": [
+      "coach"
+    ]
+  },
+  {
+    "id": "10",
+    "label": "Coach",
+    "icon": "i-heroicons-book-open",
+    "to": "/coach",
+    "children": [],
+    "show": [
+      "site",
+      "coach"
+    ]
+  },
+  {
+    "id": "11",
+    "label": "Board",
+    "icon": "i-simple-icons-stackblitz",
+    "to": "/coach/board",
+    "children": [
+      {
+        "id": "1",
+        "label": "Coach",
+        "icon": "i-heroicons-book-open",
+        "to": "/coach",
+        "show": [
+          "coach"
+        ]
+      },
+      {
+        "id": "2",
+        "label": "Board",
+        "icon": "i-simple-icons-stackblitz",
+        "to": "/coach/board",
+        "show": [
+          "coach"
+        ]
+      }
+    ],
+    "show": [
+      "coach"
+    ]
+  }
+]

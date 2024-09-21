@@ -1,0 +1,61 @@
+{
+    "name": "Task Board",
+    "lanes": [
+        {
+            "id": "to_do_tasks",
+            "name": "Consider"
+        },
+        {
+            "id": "in_progress_tasks",
+            "name": "Selected"
+        },
+        {
+            "id": "done_tasks",
+            "name": "Done"
+        }
+    ],
+    "tasks": [
+        {
+            "id": "eeb9466b-1ce7-4d67-a02c-14c48a3f304f",
+            "title": "Task 1",
+            "description": "Description 1",
+            "lane_id": "to_do_tasks",
+            "moscow": "M"
+        },
+        {
+            "id": "c8b64757-ed8a-43b8-bf2d-99d03ab5176a",
+            "title": "Task 2",
+            "description": "Description 2",
+            "lane_id": "in_progress_tasks",
+            "moscow": "S"
+        },
+        {
+            "id": "2f66174a-509c-4849-8de8-9de29ffedb62",
+            "title": "Task 2.1",
+            "description": "Description 2.1",
+            "lane_id": "in_progress_tasks",
+            "moscow": "C"
+        },
+        {
+            "id": "68e8e85f-786f-40cb-a522-98f45faa9ea5",
+            "title": "Task 2.2",
+            "description": "Description 2.2",
+            "lane_id": "in_progress_tasks",
+            "moscow": "?"
+        },
+        {
+            "id": "c708667e-9dd0-4a10-bb7a-48eba4cb8a8d",
+            "title": "Task 3",
+            "description": "Description 3",
+            "lane_id": "done_tasks",
+            "moscow": "C"
+        },
+        {
+            "id": "x708667e-9dd0-4a10-bb7a-48eba4cb8a8d",
+            "title": "Task 3.1",
+            "description": "Description 3.1",
+            "lane_id": "done_tasks",
+            "moscow": "W"
+        }
+    ]
+}
