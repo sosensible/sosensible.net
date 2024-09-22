@@ -21,8 +21,8 @@ useHead({
   }
 })
 
-const title = 'Nuxt UI Pro - Starter'
-const description = 'Nuxt UI Pro is a collection of premium Vue components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes.'
+const title = 'SOSensible.net - dev'
+const description = 'This site is built by SOSensible using Nuxt 4 (pre-release) with the heart of an older ColdFusion framework called CO-OP.'
 
 useSeoMeta({
   title,
@@ -36,36 +36,11 @@ useSeoMeta({
 </script>
 
 <template>
-  <UHeader :links="links">
-    <template #logo>
-      Nuxt UI Pro <UBadge
-        label="Starter"
-        variant="subtle"
-        class="mb-0.5"
-      />
-    </template>
+  <NuxtLayout>
 
-    <template #right>
-      <UColorModeButton />
+    <UMain>
+      <NuxtPage />
+    </UMain>
 
-      <UButton
-        to="https://github.com/nuxt-ui-pro/starter"
-        target="_blank"
-        icon="i-simple-icons-github"
-        aria-label="GitHub"
-        color="gray"
-        variant="ghost"
-      />
-    </template>
-  </UHeader>
-
-  <UMain>
-    <NuxtPage />
-  </UMain>
-
-  <UFooter>
-    <template #left>
-      Copyright © {{ new Date().getFullYear() }}
-    </template>
-  </UFooter>
+  </NuxtLayout>
 </template>

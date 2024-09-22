@@ -1,6 +1,9 @@
 ![nuxt-ui-minimal-starter-social-card](https://github.com/nuxt-ui-pro/starter/assets/739984/2ab2f391-718f-4188-95db-20b8768bbf9d)
 
-# Nuxt UI Pro - Starter
+# Early Experement with WE framework.
+
+_motto: WE know more than me._
+_All of this is true with a twist. This project is built on pre-release Nuxt 4, and using Layers as nested apps._
 
 This starter lets you get started with [Nuxt UI Pro](https://ui.nuxt.com/pro) quickly.
 
@@ -9,6 +12,7 @@ This starter lets you get started with [Nuxt UI Pro](https://ui.nuxt.com/pro) qu
 - [Live demo](https://ui-pro-starter.nuxt.dev)
 - [Play on Stackblitz](https://stackblitz.com/github/nuxt-ui-pro/starter)
 - [Documentation](https://ui.nuxt.com/pro/getting-started)
+
 
 ## Setup
 

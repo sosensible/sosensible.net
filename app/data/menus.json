@@ -1,5 +1,27 @@
 [
   {
+    "id": "591139ab-dcd6-4a84-aed1-e43ec8cf2f9f66433f2f-cad0-4694-b2b7-701404eb637c",
+    "label": "Home",
+    "icon": "i-heroicons-book-open",
+    "to": "/",
+    "children": [],
+    "show": [
+      "site",
+      "admin"
+    ]
+  },
+  {
+    "id": "e0d0005f-96e3-4dc5-8ab0-e2372bd120cdacf63186-de7d-4900-9c36-eef5386474c5",
+    "label": "About",
+    "icon": "i-simple-icons-stackblitz",
+    "to": "/about",
+    "children": [],
+    "show": [
+      "site",
+      "admin"
+    ]
+  },
+  {
     "id": "2d9b0a90-3e28-4311-8637-8db539098165",
     "label": "Home",
     "icon": "i-heroicons-book-open",

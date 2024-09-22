@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-ui-pro-starter",
+  "name": "SOSensible.net",
   "private": true,
   "type": "module",
   "scripts": {
@@ -9,7 +9,8 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
-    "typecheck": "nuxt typecheck"
+    "typecheck": "nuxt typecheck",
+    "combine:menus": "node combineMenus.js"
   },
   "dependencies": {
     "@iconify-json/heroicons": "^1.2.0",
