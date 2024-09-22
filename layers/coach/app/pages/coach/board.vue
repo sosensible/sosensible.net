@@ -36,8 +36,8 @@ const dragTaskEnd = (event: DragEvent, laneId: string) => {
 </script>
 
 <template>
-    <h1 class="mb-8 text-center text-4xl font-bold mt-4">{{ board.name }}</h1>
-    <div class="mb-6 px-8 grid gap-8 place-content-stretch" :class="`grid-cols-${lanes.length}`">
+    <h1 class="mb-8 text-center text-4xl font-bold mt-4">{{ board.name }} {{ boardStore.lanes.length }}</h1>
+    <div class="mb-6 px-8 place-content-stretch gap-8 grid grid-cols-3">
         <div v-for="(lane, ndxLane) in lanes" :key="lane.name" style="min-height: 500px;"
             class="bg-primary p-4 bg-emerald-800" @dragenter.prevent @dragover.prevent
             @drop.stop="dragTaskEnd($event, lane.id)">

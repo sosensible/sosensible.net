@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   extends: ['@nuxt/ui-pro'],
 
-  modules: ['@nuxt/eslint', '@nuxt/ui', '@nuxt/image', '@pinia/nuxt'],
+  modules: ['@nuxt/eslint', '@nuxt/ui', '@nuxt/image', '@pinia/nuxt', '@nuxthub/core'],
 
   routeRules: {
     // Temporary workaround for prerender regression. see https://github.com/nuxt/nuxt/issues/27490
